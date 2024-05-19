@@ -7,6 +7,8 @@ func _ready():
 	print ("ola tb")
 	
 	print ("ola tb3")
+	print ("ola 123b3")
+	print ("ola tb123")
 
 	print ("ola tb")
 # 73de3b5a50b9bcb0e38387a9c8d317408e1d37f5
