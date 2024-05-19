@@ -1,6 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://dbdkxehc04kem"]
+[gd_scene load_steps=3 format=3 uid="uid://dbdkxehc04kem"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_hcwvu"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_64aq1"]
+size = Vector2(459, 132)
+
 [node name="main" type="Node2D"]
 script = ExtResource("1_hcwvu")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(219.5, 56)
+shape = SubResource("RectangleShape2D_64aq1")
+one_way_collision = true
