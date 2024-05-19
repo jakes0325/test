@@ -5,7 +5,6 @@ extends Node2D
 func _ready():
 	print("ola")
 	print ("ola tb")
-	print("sisis")
 	print ("ola tb3")
 
 	print ("ola tb")
