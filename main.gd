@@ -8,6 +8,7 @@ func _ready():
 	print ("ola tb3")
 
 	print ("ola tb")
+	print ("aaaaaaaaaaaaaaaaaaaaa")
 # 73de3b5a50b9bcb0e38387a9c8d317408e1d37f5
 #testing
 # Called every frame. 'delta' is the elapsed time since the previous frame.
