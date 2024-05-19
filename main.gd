@@ -5,6 +5,8 @@ extends Node2D
 func _ready():
 	print("ola")
 	print ("ola tb")
+	print ("ola tb2")
+	print ("ola tb3")
 
 #testing
 # Called every frame. 'delta' is the elapsed time since the previous frame.
